@@ -24,7 +24,7 @@ Notice how in B) and C) that long reads all end at the same spot? That means the
 
 You can disriminate between circular and linear dsDNA elements by visualizing coverage depth pre-filtered with a minimum % read alignment. You can also identify all "ends" of linear dsDNA elements by creating a network graph of all-vs-all alignment output (pre-filtered by high query coverage), where each cluster is actually a group of reads that aligns to all other reads in the group. Combining both allows you to find all ends of linear dsDNA elements with high enough coverage - these are your borg candidates!
 
-**Want to re-basecall a nanopore dataset in high-accuracy mode? Check out [www.flowgenomics.com](www.flowgenomics.com).**
+**Want to re-basecall a nanopore dataset in high-accuracy mode? Check out [www.flowgenomics.com](https://flowgenomics.com).**
 
 [Want to collaborate? Click here to email me.](mailto:dgiguer@uwo.ca)
 
