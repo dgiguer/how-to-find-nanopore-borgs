@@ -2,7 +2,7 @@
 
 Daniel Giguere 
 
-**tl;dr at bottom**
+**tl;dr at [bottom](https://github.com/dgiguer/how-to-find-nanopore-borgs#summary-tldr)**
 
 ### Background 
 
@@ -22,7 +22,7 @@ Notice how in B) and C) that long reads all end at the same spot? That means the
 
 ### Summary, tl;dr 
 
-You can disriminate between circular and linear dsDNA elements by visualizing coverage depth pre-filtered with a minimum % read alignment. You can also identify all "ends" of linear dsDNA elements by creating a network graph of all-vs-all alignment output (pre-filtered by high query coverage), where each cluster is actually a group of reads that aligns to all other reads in the group. Combining both allows you to find all ends of linear dsDNA elements with high enough coverage - these are your borg candidates. You now have your borg candidates!
+You can disriminate between circular and linear dsDNA elements by visualizing coverage depth pre-filtered with a minimum % read alignment. You can also identify all "ends" of linear dsDNA elements by creating a network graph of all-vs-all alignment output (pre-filtered by high query coverage), where each cluster is actually a group of reads that aligns to all other reads in the group. Combining both allows you to find all ends of linear dsDNA elements with high enough coverage - these are your borg candidates!
 
 **Want to re-basecall a nanopore dataset in high-accuracy mode? Check out [www.flowgenomics.com](www.flowgenomics.com).**
 
@@ -78,6 +78,6 @@ for (i in seq(length(groups(clu)))) {
 hist(final, breaks = 99)
 ```
 
-If high coverage groups exist, these will represent ends of linear dsDNA elements. Find the contig in your assembly by mapping a read or two to it, then verify that it's a borg! 
+If high coverage groups exist, these will represent ends of linear dsDNA elements. Find the contig in your assembly by mapping a read or two to it, then verify that it's a borg using the criteria described in [@themicrobeguy](https://twitter.com/themicrobeguy)'s pre-print!
  
 
