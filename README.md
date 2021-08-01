@@ -39,7 +39,7 @@ Use minimap2 to do all-vs-all read alignment.
 minimap2 -x ava-ont -t 40 reads_10kb.fastq.gz reads_10kb.fastq.gz > read_alignments.paf
 ```
 
-You can filter reads by query coverage using a tool Alec and I developed called [gerenuq[(wwww.github.com/abahcheli/gerenuq). 
+You can filter reads by query coverage using a tool Alec and I developed called [gerenuq[(https://github.com/abahcheli/gerenuq). 
 
 ```
 # retain only read alignments with 90% query coverage. this also reduces file size for R
