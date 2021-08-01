@@ -2,6 +2,8 @@
 
 Daniel Giguere 
 
+[![DOI](https://zenodo.org/badge/391498265.svg)](https://zenodo.org/badge/latestdoi/391498265)
+
 **tl;dr at [bottom](https://github.com/dgiguer/how-to-find-nanopore-borgs#summary-tldr)**
 
 ### Background 
