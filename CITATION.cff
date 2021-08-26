@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you find borgs in nanopore data using this method, please cite it as below."
+authors:
+  - family-names: Giguere
+    given-names: Daniel James
+    orcid: https://orcid.org/0000-0002-4215-9859
+title: "How to find borgs in nanopore data"
+version: 0.0.1
+doi: 10.5281/zenodo.5151413
+date-released: 2021-08-26
